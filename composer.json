@@ -1,0 +1,19 @@
+{
+    "name": "kozhinhikkodan/url-short",
+    "description": "URL Shortner Package from cleanuri.com",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kozhinhikkodan\\UrlShort\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Salih Kozhinhikkodan",
+            "email": "kozhinhikkodan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
