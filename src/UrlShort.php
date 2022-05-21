@@ -15,6 +15,10 @@ class UrlShort
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $server_output = json_decode(curl_exec($ch));
         curl_close ($ch);
-        return $server_output->result_url;
+        if(isset($server_output->result_url)){
+            return $server_output->result_url;
+        }else{
+            return 'INVALID URL';
+        }
     }
 }
