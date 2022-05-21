@@ -5,7 +5,7 @@ URL Shortner powered by cleanuri.com
 ## Require the Package
 
 ```bash
-composer require Kozhinhikkodan/UrlShort
+composer require Kozhinhikkodan/url-short
 ```
 
 ## Usage
